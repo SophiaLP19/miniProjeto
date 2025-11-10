@@ -11,15 +11,16 @@
     <input class="btn" type="button" value="Adicionar" onclick="adicionarTexto()"> 
     <input type="checkbox" id="checkUrgente"> <label for="Urgentes">Urgentes</label>
     <div >
-        
-        <ol id="urgentes"><h2>Urgentes</h2></ol>
+        <h2>Urgentes</h2>
+        <ol id="urgentes"></ol>
     </div>
     <div >
-        
-        <ol id="nurgentes"><h2>Não Urgentes</h2></ol>
+        <h2>Não Urgentes</h2>
+        <ol id="nurgentes"></ol>
     </div>
     <script type="text/javascript" src="js/miniProjeto.js"></script>
-    <input class="btn" type="button" value="Remover" onclick="removerTexto()"> 
+    <input class="btn" type="button" value="Remover Urgentes" onclick="removerTextoUrgente()"> 
+    <input class="btn" type="button" value="Remover Não Urgentes"onclick="removerTextoNUrgente()">
     <input class="btn" type="button" value="Remover tudo" onclick="limpar()"> 
 
 </body>

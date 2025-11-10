@@ -7,6 +7,7 @@ function adicionarTexto(){
     nota.innerText = texto;
     nota.id = "parágrafo";
     nota.className = "notas";
+    document.getElementById("caixaTexto").value = "";
     if(cont==1)
     {
         nota.style.color = "blue";
@@ -35,8 +36,12 @@ function adicionarTexto(){
     }
     
 }
-    function removerTexto(){
-        var remover = document.getElementById("parágrafo");
+    function removerTextoUrgente(){
+        var remover = document.getElementById("urgentes").lastElementChild;
+        remover.remove();
+    }
+    function removerTextoNUrgente(){
+        var remover = document.getElementById("nurgentes").lastElementChild;
         remover.remove();
     }
 
