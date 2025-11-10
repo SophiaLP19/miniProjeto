@@ -1,6 +1,29 @@
 #urgentes{
     border: 2px solid red;
+    width: 400px;
 }
 #nurgentes{
     border: 2px solid yellowgreen;
+    width: 400px;
 }
+#caixaTexto{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(149, 32, 178)
+    ;}
+body{
+    background-color: rgb(135, 175, 250);
+}
+h2{
+    color: rgb(73, 60, 146);
+}
+.btn{
+    background-color: mediumslateblue;
+    border-radius: 5px;
+    border: 2px solid blueviolet;
+    color: white;
+}
+
+
