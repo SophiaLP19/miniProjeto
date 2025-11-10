@@ -1,5 +1,4 @@
 cont = 1;
-cont1 = 1;
 function adicionarTexto(){
 
     var texto = document.getElementById("caixaTexto").value;
@@ -46,3 +45,4 @@ function adicionarTexto(){
         while(remover.length > 0)
         remover[0].remove();
     }
+    document.getElementById("caixaTexto").value = "";
